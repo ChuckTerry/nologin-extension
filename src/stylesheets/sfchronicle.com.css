@@ -1,0 +1,7 @@
+#modals {
+	display: none !important;
+}
+
+body {
+	overflow: scroll !important;
+}

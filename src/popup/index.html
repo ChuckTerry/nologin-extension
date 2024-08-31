@@ -1,0 +1,47 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>NoLogin</title>
+        <script src="./index.js"></script>
+        <style>
+          body {
+            min-width: 460px;
+          }
+          
+          h1 {
+            border-bottom: 2px solid #000000;
+          }
+          
+          h3 {
+            float: right;
+            font-style: italic;
+          }
+        </style>
+    </head>
+    <body>
+        <h3>v2.2.12</h3>
+        <h1>NoLogin</h1>
+        <h4>Because you likely already have too many accounts to keep track of!</h4>
+        <div>
+            <p>NoLogin to the Rescue! Currently removes the need for an account on the following sites:</p>
+            <ul>
+              <li>Business Insider</li>
+              <li>Forbes</li>
+              <li>Glassdoor</li>
+              <li>New York Times</li>
+              <li>Quizlet</li>
+              <li>San Francisco Chronicle</li>
+              <li>The Digital Courier</li>
+            </ul>
+            <p>Please take note that this extension is not intended to bypass paywalls, please support all sites you visit!</p>
+            <p>To site owners:  This extension doesn't show the user any data that your server didn't send them in the first place.  I know back-end software engineers are expensive, but so is bandwidth nowadays.  Stop offsetting these costs to you users.  It makes for a poor UX and it likely means you're cutting the same corners on security.  Cutting costs is no excuse to compromise your users' privacy.</p>
+        </div>
+        <button type="button" id="show-options">Extension Options</button>
+        <div>
+            <label for="enable-extension">Enable NoLogin</label>
+            <input type="checkbox" id="enable-extension" name="enable-extension" title="Enable NoLogin">
+        </div>
+        <div id="status"></div>
+    </body>
+</html>

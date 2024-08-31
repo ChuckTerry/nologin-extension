@@ -1,0 +1,6 @@
+/* Position the "skip" button to fixed in the bottom left of the screen */
+form[id^=edit_task_response] input#skip_button {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+}

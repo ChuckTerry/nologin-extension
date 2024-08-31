@@ -1,0 +1,9 @@
+/* Hide signup Box */
+.SetPageTerms-termsList + div {
+  display: none !important;
+}
+
+/* Remove Blur Filter on Definitions */
+.SetPageTerms-term * {
+    filter: none;
+}

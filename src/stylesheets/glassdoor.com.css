@@ -1,0 +1,25 @@
+/* Hide the Login Modal */
+#HardsellOverlay {
+  display: none !important;
+}
+
+/* Make the body scrollable */
+body {
+  position: static !important;
+  overflow: visible !important;
+}
+
+/* Show the entire review */
+#ReviewsFeed span {
+  white-space: normal !important;
+  overflow: visible !important;
+}
+
+p[class^=review-details_isCollapsed_] {
+  max-height: initial !important;
+}
+
+/* Hide the "Show More" Button */
+div[class^=review-details_showMoreButton_] {
+  display: none !important;
+}

@@ -1,0 +1,13 @@
+.pw-modal-entry,
+.pw-modal-backdrop,
+.subscription-msg {
+  display: none !important;
+}
+
+body {
+  overflow: visible !important;
+}
+
+#piano-inline-content-wrapper {
+  display: block !important;
+}

@@ -1,0 +1,47 @@
+{
+  "action": {
+    "default_popup": "popup/index.html",
+    "default_title": "NoLogin"
+  },
+  "author": {
+    "email": "chuck.terry@outlook.com"
+  },
+  "content_scripts": [
+    {
+      "js": [ "index.js" ],
+      "matches": [ "<all_urls>" ],
+      "run_at": "document_start"
+    }
+  ],
+  "description": "NoLogin - Because you have enough of them as it is!",
+  "homepage_url": "https://github.com/ChuckTerry",
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "icons": {
+    "192": "images/icon192.png",
+    "128": "images/icon128.png",
+    "64": "images/icon64.png",
+    "48": "images/icon48.png",
+    "32": "images/icon32.png",
+    "24": "images/icon24.png",
+    "16": "images/icon16.png"
+  },
+  "manifest_version": 3,
+  "name": "NoLogin",
+  "options_ui": {
+    "browser_style": true,
+    "page": "options/index.html"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "version": "2.1.12",
+  "version_name": "2.1.12",
+  "web_accessible_resources": [
+    {
+      "resources": [ "stylesheets/*" ],
+      "matches": [ "<all_urls>" ]
+    }
+  ]
+}

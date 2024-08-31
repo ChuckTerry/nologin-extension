@@ -1,0 +1,15 @@
+/* Hide Login Modal */
+.vi-gateway-container + div {
+  display: none !important;
+}
+
+/* Show Body */
+.vi-gateway-container {
+  position: static;
+  overflow: visible;
+}
+
+/* Hide Gradient */
+.vi-gateway-container > div[class^=css] {
+  display: none !important;
+}

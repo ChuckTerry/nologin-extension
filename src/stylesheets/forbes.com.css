@@ -1,0 +1,9 @@
+.zephr-article-modal-modal.no-close,
+.zephr-article-modal-backdrop.zephr-backdrop {
+  display: none !important;
+}
+
+body.zephr-modal-open,
+html.zephr-modal-open {
+  overflow: scroll !important;
+}
